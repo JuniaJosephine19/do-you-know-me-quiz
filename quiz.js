@@ -1,12 +1,12 @@
 // mark One
 const chalk = require("chalk");
-
+console.log(chalk.bgMagenta("Do you know me quiz") + "\n");
 var questionOne = {
   question: "Where do I live? ",
   answer: "Chennai",
 };
 var questionTwo = {
-  question: "Am I older than 25? ",
+  question: "Am I older than 25?(yes/no) ",
   answer: "yes",
 };
 var questionThree = {
@@ -14,11 +14,11 @@ var questionThree = {
   answer: "Dosa",
 };
 var questionFour = {
-  question: "Am I Indian? ",
+  question: "Am I Indian?(yes/no) ",
   answer: "yes",
 };
 var questionFive = {
-  question: "Have I lived alone? ",
+  question: "Have I lived alone?(yes/no) ",
   answer: "yes",
 };
 var question = [questionOne, questionTwo, questionThree, questionFour, questionFive];
